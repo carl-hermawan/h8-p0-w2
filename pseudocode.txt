@@ -1,0 +1,25 @@
+1.	STORE 'm' EQUAL 600
+	STORE 'a' EQUAL 2
+	SET 'f' EQUAL m TIMES a
+	DISPLAY 'f'
+
+2. 	STORE 'tahun'
+	IF 	('tahun' MOD 4 EQUAL 0 AND 'tahun' MOD 100 NOT EQUAL 0) OR 
+		('tahun' MOD 4 EQUAL 0 AND 'tahun' MOD 100 EQUAL 0 AND 'tahun' MOD 400 EQUAL 0)
+		DISPLAY "'tahun' adalah tahun kabisat" 
+	ELSE 	
+		DISPLAY "'tahun' bukan tahun kabisat"
+
+3.	STORE 'pakaian'
+	WHILE (washing machine NOT START)
+		IF ('pakaian' EQUAL 20)
+			START washing machine
+			BREAK
+		DISPLAY 'washing machine is waiting'
+
+4.	STORE 'murid'
+	ITERATE UNTIL 'murid' EQUAL 40
+		IF kuku 'murid' EQUAL panjang
+			THEN HUKUM 'murid'
+		ELSE
+			PUJI 'murid'
